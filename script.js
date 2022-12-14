@@ -65,7 +65,7 @@ let chiptuneArr = [
 ];
 
 let lofiArr = ["a cluster of stars", "A Deriva", "A place in my heart", "abundant universe", "Across The Valley", "afloat", "Asatte", "catarse", "celestial space", "cerulean.", "Close Your Eyes", "Cosmogony", "Cradled by the Sea",
-"Day's End", "Daydreams", "Deepsleep", "Enchanted", "Endless", "Eternity", "Exploration", "Fairy Dust", "Fallin' Asleep", "Fast Asleep",
+"Day's End", "Daydreams", "Enchanted", "Endless", "Eternity", "Exploration", "Fairy Dust", "Fallin' Asleep", "Fast Asleep",
 "First love", "Gone Fishing", "Gratitude", "Half Light", "If only for a second",
 "illuminate","Lisergia", "Looking at the Sky", "Los Andes", "Lost", "Lunar",
 "Mantra", "Melancholy", "Melaton", "memorias postumas", "message in a bookshelf", "Midnight Blue", "midnight breeze",
@@ -75,7 +75,7 @@ let lofiArr = ["a cluster of stars", "A Deriva", "A place in my heart", "abundan
 "Whisper Of The Sea", "Windowpane", "you found me"]
 
 let OgLofiArr = ["a cluster of stars", "A Deriva", "A place in my heart", "abundant universe", "Across The Valley", "afloat", "Asatte", "catarse", "celestial space", "cerulean.", "Close Your Eyes", "Cosmogony", "Cradled by the Sea",
-"Day's End", "Daydreams", "Deepsleep", "Enchanted", "Endless", "Eternity", "Exploration", "Fairy Dust", "Fallin' Asleep", "Fast Asleep",
+"Day's End", "Daydreams", "Enchanted", "Endless", "Eternity", "Exploration", "Fairy Dust", "Fallin' Asleep", "Fast Asleep",
 "First love", "Gone Fishing", "Gratitude", "Half Light", "If only for a second",
 "illuminate","Lisergia", "Looking at the Sky", "Los Andes", "Lost", "Lunar",
 "Mantra", "Melancholy", "Melaton", "memorias postumas", "message in a bookshelf", "Midnight Blue", "midnight breeze",
@@ -140,7 +140,7 @@ let everySong = [
 'Seahorse Dreams', 'Sleet', 'Starlight Eyes', 'Starship Showdown', 'Steampunk Warlord', 'Summits', 'Sunrise', 'Symphony Of A Forgotten Sprite', 'The Alliance', 'The Cairn', 'The Cave The Treasure', 'The Hibernator', 'The Maze Of Mayonnaise',
 'The Reaver', 'The See-Through Zone', 'The Spectator', 'Tidal Force', 'To The Sky', 'Toaster', 'Up In My Jam', 'Vindicate Me', 'Virtuoso Sexy', 'Vita', 'Vitamin B12', 'Warm Hugs In Court', 'We Are Wired', 'Zero Gravity Love',
 "a cluster of stars", "A Deriva", "A place in my heart", "abundant universe", "Across The Valley", "afloat", "Asatte", "catarse", "celestial space", "cerulean.", "Close Your Eyes", "Cosmogony", "Cradled by the Sea",
-"Day's End", "Daydreams", "Deepsleep", "Enchanted", "Endless", "Eternity", "Exploration", "Fairy Dust", "Fallin' Asleep", "Fast Asleep",
+"Day's End", "Daydreams", "Enchanted", "Endless", "Eternity", "Exploration", "Fairy Dust", "Fallin' Asleep", "Fast Asleep",
 "First love", "Gone Fishing", "Gratitude", "Half Light", "If only for a second",
 "illuminate","Lisergia", "Looking at the Sky", "Los Andes", "Lost", "Lunar",
 "Mantra", "Melancholy", "Melaton", "memorias postumas", "message in a bookshelf", "Midnight Blue", "midnight breeze",
