@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -16,7 +18,100 @@ body {
   transition: all 0.2s ease-in-out;
 }
 
+img{
+  height: 370px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.376);
+}
+
+input{
+  width: 10px;
+  transition: all 0.2s ease-in-out;
+  background: rgb(243, 239, 239);
+  border-radius: 4px;
+  opacity: 0.3;
+}
+
+input:hover{
+  width: 78%;
+  opacity: 1;
+}
+
+input::-moz-range-thumb {
+  width: 10px;
+  height: 20px;
+  border-radius: 2px;
+  background: #ffffff; 
+  cursor: pointer;
+}
+
+li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border-bottom: 1px solid rgb(160, 160, 160);
+  transition: all 0.2s ease-in-out;
+}
+
+li:hover{
+  background: rgb(214, 214, 214);
+  color: #5d5d5d
+}
+
+#indie{
+  color:#646161;
+  border: 1px solid #646161;
+}
+
+#customDiv img{
+  height: 40px;
+}
+
+#shuffle{
+  margin: 0px 0px;
+}
+
+#shuffleIcon{
+  transition: all 0.2s ease-in-out;
+}
+
+#shuffle:hover{
+  color: #bcb8bc;
+}
+
+#shuffleIcon:hover{
+  color: #bcb8bc;
+}
+
+#topControl{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: space-between;
+  display: flex;
+  width: 80%;
+  height: 95%;
+}
+
+#volume{
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+  color: #dfdbdf;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  align-items: center;
+}
+
+#volume:hover{
+  color: #bcb8bc;
+}
+
 #queue{
+  font-family: 'Kanit', sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -35,11 +130,60 @@ body {
   text-align: center;
 }
 
-img{
-  height: 370px;
-  text-align: center;
+#customP{
+  font-family: 'Kanit', sans-serif;
+  position: absolute;
+  visibility: hidden;
+  top: 50%;
+  left: 16%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  height: 80%;
+  padding: 8px;
+  font-size: 15px;
+  overflow-y: scroll;
+  background-color: #FFFFFF;
+  box-shadow: 0 20px 20px 0 rgba(71, 69, 84, 0.6);
+  border-radius: 3px;
+  list-style: none;
+  transition: all 0.2s ease-in-out;
+  z-index: 10001;
+}
+
+#playlists{
+  position: absolute;
+  display: flex;
+  top: 90%;
+  z-index: 1000;
+}
+
+#normal{
+  color: #646161;
+  border: 1px solid #646161;
+}
+
+.active{
+  color: #646161;
+  border: 1px solid #646161;
+}
+
+.inactive{
+  color: #c6c5c6;
+  border: 1px solid #c2c2c2;
+}
+
+.btnMusic{
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #c2c2c2;
   border-radius: 5px;
-  border: 1px solid rgba(0, 0, 0, 0.376);
+  color: #c6c5c6;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0 20px;
+  transition: all 0.2s ease-in-out;
+  align-items: center;
 }
 
 .music-container {
@@ -77,41 +221,6 @@ img{
   justify-self: center;
   justify-content: center;
   z-index: 1;
-}
-
-input{
-  width: 10px;
-  transition: all 0.2s ease-in-out;
-  background: rgb(243, 239, 239);
-  border-radius: 4px;
-  opacity: 0.3;
-}
-
-input:hover{
-  width: 78%;
-  opacity: 1;
-}
-
-input::-moz-range-thumb {
-  width: 10px;
-  height: 20px;
-  border-radius: 2px;
-  background: #ffffff; 
-  cursor: pointer;
-}
-
-#volume{
-  background-color: rgba(255, 255, 255, 0);
-  border: 0;
-  color: #dfdbdf;
-  font-size: 20px;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  align-items: center;
-}
-
-#volume:hover{
-  color: #bcb8bc;
 }
 
 .action-btn {
@@ -194,21 +303,6 @@ input::-moz-range-thumb {
   transition: all 0.1s linear;
 }
 
-#shuffle{
-  margin: 0px 0px;
-}
-
-#topControl{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  justify-content: space-between;
-  display: flex;
-  width: 80%;
-  height: 95%;
-}
-
 @media(max-height: 800px){
   .music-container{
     height: 80%;
@@ -220,6 +314,10 @@ input::-moz-range-thumb {
 
   img{
     height: 300px;
+  }
+
+  #playlists{
+    top: 95%;
   }
 }
 
@@ -235,6 +333,26 @@ input::-moz-range-thumb {
 }
 
 @media(max-width: 930px){
+  #queueDiv{
+    position: absolute;
+    top: 43%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    z-index: 10000;
+    width: 200px;
+    height: 300px;
+  }
+
+  #queue{
+    z-index: 10000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    width: 150px;
+    height: 230px;
+  }
 
   .music-container {
     width: 450px;
